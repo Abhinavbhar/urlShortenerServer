@@ -17,7 +17,7 @@ func main() {
 
 	corsHandler := cors.New(cors.Options{
 		//add frontend url here
-		AllowedOrigins: []string{"http://localhost:3000"},
+		AllowedOrigins: []string{"http://localhost:3000", "https://url-shortener-kappa-ruby.vercel.app/"},
 		//options
 		AllowedMethods: []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		//allowed headers
